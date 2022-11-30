@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        div:first-child {
+            background-color: red;
+           /* width: 200px;
+            height: 200px;*/
+            float: right;
+            /*text-align: center;*/
+            /* position: relative;*/
+            /*position: absolute;
+            left: 200px;
+            top:200px;*/
+            /*z-index: 1;*/
+
+        }
+
+        div:nth-child(2) {
+            background-color: green;
+           /* width: 200px;
+            height: 200px;*/
+            /* margin-top: 200px;*/
+            /*  margin: -20px;*/
+            position: relative;
+            clear: both;
+
+            /* top: 200px;*/
+            /* position: absolute;
+           top: 200px;*/
+        }
+
+        div:nth-child(3) {
+            background-color: blue;
+            /*width: 200px;
+            height: 200px;*/
+            /*  position: relative;
+            z-index: -1;*/
+            /* position: fixed;
+            top: 200px;
+            left:200px;*/
+        }
+        div:nth-child(3):hover{
+            width: 400px;
+        }
+
+        /*div div:first-child{
+            background-color: yellow;
+            width:100px;
+            height: 100px;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }*/
+        /* h1{
+            text-align : center;
+        }*/
+        /*body{
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }*/
+        /* div span{
+           display:block;
+           visibility: hidden;
+           width: 100px;
+           margin:auto;
+            background-color: grey;
+        }*/
+        /*
+        html body div#page ul#summer li.fav{        0   2   1   4
+
+        }
+        li.fav{
+            0   0   1   1
+        }
+        *{
+            0   0   0   0
+        }
+        div[id=a]{ 0    0   1   1
+            background-color:blue;
+
+        }
+        #a{ 0  1  0  0  0
+            background-color:yellow;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <div>
+        <!--<span>Hey this is amazing</span>
+        <span>Can you feel it?</span>-->
+    </div>
+    <div></div>
+    <div>
+        <!-- <div></div>-->
+    </div>
+</body>
+
+</html>
