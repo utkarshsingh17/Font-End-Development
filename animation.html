@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   /* div{
+        width: 100px;
+        height: 100px;
+        background: red;
+        position:relative;
+        animation: myfirst 5s;
+    }
+    @keyframes myfirst{
+        0%{background:red;left:0px; top: 0px;}
+        25%{background: yellow;left:200px ; top:0px}
+        50%{background: blue; left:200px; top:200px;}
+        75%{background: green;left:0px;top:200px;}
+        100%{background: red;left: 0px;top: 0px;}
+        
+    }*/
+    .container{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: khaki;
+    }
+    .overlay{
+        position: absolute;
+        bottom: 100px;
+        left: 0;
+        right: 0;
+        background-color: midnightblue;
+        height: 0;
+        transition: 0.5s;
+    }
+    .container:hover .overlay{
+        bottom: 0;
+        height:100% ;
+    }
+</style>
+<body>
+   <!--<p><b>Note:</b>When an animation is finished,it changes back to its original style</p>-->
+    <div class="container">
+        <div class="overlay">
+
+        </div>
+    </div>
+</body>
+</html>
