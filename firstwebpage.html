@@ -5,16 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap" rel="stylesheet">
+  <!--<style>
+        
 
+        /*{
+        color:red;
+    }*/
+        body {
+            background: rgba(255, 255, 255) url(https://d27yxarlh48w6q.cloudfront.net/web/v1/images/book_icon.svg) no-repeat right top;
+            /*background-image:linear-gradient(to right,red,yellow,blue);
+            background-image:linear-gradient(bisque,aqua,white);
+            background-color: ; 
+            background-image: url();
+            background-repeat: no-repeat;
+            background-position: right top;*/
+
+        }
+
+        .centertext {
+            text-align: center;
+        }
+
+        div, h2 {
+            font-family: Rosario;
+            /*font-variant: ;
+    font-weight: ;
+    line-height
+   short hand for- font: style varient weight font-size line-height font-family
+   text-decoration: none;*/
+            font-size: 1vw;
+        }
+
+        h2 {
+            color: rgba(93, 178, 249);
+        }
+
+        h2,
+        p {
+            text-indent: 50px;
+        }
+
+        hr {
+            width: 60%;
+        }
+
+        #noborderspace {
+            border-spacing: 0px;
+
+        }
+
+        tr:first-child td:nth-child(2) {
+
+            border-bottom: 1px solid rgba(128, 128, 128, 0.826);
+            border-right: 1px solid rgba(128, 128, 128, 0.826);
+        }
+
+        tr:first-child td:nth-child(3) {
+            border-bottom: 1px solid rgba(128, 128, 128, 0.826);
+            border-left: 1px solid rgba(128, 128, 128, 0.826);
+        }
+
+        tr:nth-child(2) td:first-child {
+
+            border-top: 1px solid rgba(128, 128, 128, 0.826);
+            border-right: 1px solid rgba(128, 128, 128, 0.826);
+        }
+
+        tr:nth-child(2) td:nth-child(2) {
+            border-top: 1px solid rgba(128, 128, 128, 0.826);
+            border-left: 1px solid rgba(128, 128, 128, 0.826);
+
+        }
+    </style>-->
+   <!-- <link rel="stylesheet" typr="text/css"href="style.css">-->
+   <style>
+    @import url("style.css");
+    a:link{
+    color:greenyellow
+}
+a:visited{
+    color:green
+}
+a:hover{
+    color:blue
+}
+a:active{
+    color:pink
+}
+table{
+    border-collapse: collapse;
+    width:90%;
+}
+td{
+    padding:30px;
+    text-align: left;
+}
+/*h1{
+    width: 300px;
+    border:15px solid green;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: content-box;
+}*/
+h1{
+    /*top right bottom left*/
+    margin: 25px 50px 75px 100px;
+    border: 15px solid green;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+   </style>
 </head>
 
 <body>
-    <div align="center">
-        <h1>WHY CHOOSE SKILL-LYNC?</h1>
+    <div class="centertext">
+        <h1>WHY CHOOSE <a href="https://skill-lync.com"> SKILL-LYNC?</a></h1>
         <h3>Industry relevant advanced courses for Engineers</h3>
     </div>
     <hr>
-    <table width="80%" style="border-spacing: 0px;">
+    <table width="80%" style="border-spacing: 0px;" id="noborderspace">
         <!-- <caption>SKILL LYNC WORKS TO GET YOU A JOB</caption>-->
         <!-- <thead>SKILL LYNC WORKS TO GET YOU A JOB</thead>-->
         <tr>
@@ -28,28 +142,24 @@
                 </picture>
             </td>
 
-            <td
-                style="border-bottom:1px solid rgba(128, 128, 128, 0.826); border-right: 1px solid rgba(128, 128, 128, 0.826) ;">
+            <td>
                 <h2>Job Leading Courses</h2>
                 <p>All of our courses are mapped to specific job functions in the market</p>
             </td>
-            <td
-                style="border-bottom: 1px solid rgba(128, 128, 128, 0.826);border-left:1px solid rgba(128, 128, 128, 0.826);">
+            <td>
                 <h2>Project Based Learning</h2>
                 <p>Work on projects, publish to your profile and get hired</p>
             </td>
-            <td rowspan="2">
+            <!-- <td rowspan="2">
                 <iframe src="thirdpage.html" frameborder="4" height="200" weight="800" width="400"></iframe>
-            </td>
+            </td>-->
         </tr>
         <tr>
-            <td
-                style="border-top: 1px solid rgba(128, 128, 128, 0.826);border-right:1px solid rgba(128, 128, 128, 0.826);">
+            <td>
                 <h2>Industry Experts</h2>
                 <p>All Skill-Lync course are crafted in consultation with industry experts.</p>
             </td>
-            <td
-                style="border-top:1px solid rgba(128, 128, 128, 0.826);border-left:1px solid rgba(128, 128, 128, 0.826) ;">
+            <td>
                 <h2>Vested in your Success</h2>
                 <p>In the last 12 months, we have placed 200+ students, helped students get over USD 500,000 in
                     scholarship
@@ -78,7 +188,7 @@
         </li>
     </ul>-->
     <!--This is contact information-->
-    <footer align="center">
+    <footer class="centertext">
         No.1 Gajalakshmi Nagar, Chromepet,chennai 600044. <br>
         +91 8939850851 <br>
         info@skill-lync.com <br>
