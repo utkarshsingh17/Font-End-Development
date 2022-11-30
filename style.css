@@ -1,0 +1,82 @@
+/*{
+        color:red;
+    }*/
+    body {
+        background: rgba(255, 255, 255) url(https://d27yxarlh48w6q.cloudfront.net/web/v1/images/book_icon.svg) no-repeat right top;
+        /*background-image:linear-gradient(to right,red,yellow,blue);
+        background-image:linear-gradient(bisque,aqua,white);
+        background-color: ; 
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: right top;*/
+
+    }
+
+    .centertext {
+        text-align: center;
+    }
+   /* div>h2{
+        font-family: Rosario;
+
+
+    }*/
+    /*div+h2{
+        font-family: Rosario;
+    */
+
+    div, h2 {
+        font-family: Rosario;
+        /*font-variant: ;
+font-weight: ;
+line-height
+short hand for- font: style varient weight font-size line-height font-family
+text-decoration: none;*/
+        font-size: 1vw;
+    }
+
+    h2 {
+        color: rgba(93, 178, 249);
+       font-size: 20px;
+       /*font-size:150%;*/
+       /*font-size:1.5em;*/
+       /*font-size:1rem;*/
+    }
+
+    /*h2,
+    p {
+        text-indent: 50px;
+    }*/
+    /*h2~p{
+        color:red
+    }*/
+    hr {
+        width: 60%;
+    }
+
+    #noborderspace {
+        border-spacing: 0px;
+
+    }
+
+    tr:first-child td:nth-child(2) {
+
+        border-bottom: 1px solid rgba(128, 128, 128, 0.826);
+        border-right: 1px solid rgba(128, 128, 128, 0.826);
+    }
+
+    tr:first-child td:nth-child(3) {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.826);
+        border-left: 1px solid rgba(128, 128, 128, 0.826);
+    }
+
+    tr:nth-child(2) td:first-child {
+
+        border-top: 1px solid rgba(128, 128, 128, 0.826);
+        border-right: 1px solid rgba(128, 128, 128, 0.826);
+    }
+
+    tr:nth-child(2) td:nth-child(2) {
+        border-top: 1px solid rgba(128, 128, 128, 0.826);
+        border-left: 1px solid rgba(128, 128, 128, 0.826);
+
+    }
